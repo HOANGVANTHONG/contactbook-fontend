@@ -74,7 +74,10 @@ export default {
                     console.log(error);
                 }
             }
-        },       
+        },
+        goToAddcontact() {
+            this.$router.push({nam: "contacts.add" });
+        },
     },
 
     mounted() {
